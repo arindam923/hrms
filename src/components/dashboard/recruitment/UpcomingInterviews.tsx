@@ -14,7 +14,7 @@ const UpcomingInterviews = () => {
         {upComingInterViews.map((i) => (
           <div className="flex items-start space-x-4" key={i.id}>
             <div className="flex-shrink-0">
-              <div className="w-12 h-12 bg-gray-100 rounded-lg flex flex-col items-center justify-center">
+              <div className="w-12 h-12  rounded-lg flex flex-col items-center justify-center">
                 <Icon icon="mdi:calendar" className="text-gray-500 text-xl" />
                 <span className="text-xs font-semibold">{i.date}</span>
               </div>

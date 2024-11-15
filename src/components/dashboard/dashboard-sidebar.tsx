@@ -10,7 +10,7 @@ import Sidebar from "@/components/common/Sidebar";
 import { sectionItems } from "@/components/dashboard/sidebar-items";
 const DashboardSidebar = () => {
   return (
-    <div className="fixed left-0 z-50 bg-white flex h-full w-16 flex-col items-center border-r-small border-divider px-2 py-8">
+    <div className="fixed left-0 z-50  flex h-full w-16 flex-col items-center border-r-small border-divider px-2 py-8">
       <ScrollShadow className="-mr-2 h-full max-h-full py-6 pr-2">
         <div className="flex flex-col items-center gap-4">
           <Avatar
